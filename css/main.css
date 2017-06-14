@@ -139,9 +139,19 @@ h1{
 }
 
 .bookContainer {
-	/*max-width: 50%;*/ 
 	margin-top: 100px; 
 	background: #f4f4f4;
+}
+
+.bookcontent{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.bookcontent p{
+  padding:2%;
+  max-width:300px;
 }
 
 .bookcontent img { 
@@ -151,7 +161,7 @@ h1{
 
 .logocontainer{
   margin-top:100px;
-  display:inline-flex;
+  display:flex;
   flex-wrap:wrap;
   justify-content:space-between;
 }
@@ -221,4 +231,29 @@ p{
   .moviecontainer img { 
 	max-width: 75%;
 }
+  
+    .logocontainer{
+  margin-top:100px;
+  display:inline-flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+  
+    .bookcontent{
+  display:flex;
+  flex-direction:row-reverse;
+}
+
+.bookcontent img { 
+	max-width: 35%;
+  height:300px;
+  margin-bottom:40px;
+}
+  
+  .bookcontent p {
+    margin-bottom:40px;
+    max-width:300px;
+    display:flex;
+    align-items:flex-end;
+  }
 }
